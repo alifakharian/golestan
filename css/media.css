@@ -1,0 +1,77 @@
+/*start The mediea of banner titel */
+
+@media (min-width: 1200px) {
+  .rice > div.col-md-12 {
+    width: 17%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .rice > div.col-md-12 {
+    width: 20%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .rice > div.col-md-12 {
+    width: 25%;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .rice > div.col-md-12 {
+    width: 35%;
+  }
+}
+/*End The mediea of banner titel */
+
+
+
+/* start the img of hospital */
+@media (min-width: 1200px) {
+  div.social2 > div.image {
+    width: 40%;
+    margin-left: 36%;
+
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  div.social2 > div.image {
+    width:40%;
+    margin-left: 36%;
+    
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  div.social2 > div.image {
+    width:80%;
+    margin-left: 23%;
+    
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  div.social2 > div.image {
+    width:80%;
+    margin-left: 20%;
+  }
+}
+@media (min-width:450px) and (max-width: 576px)  {
+  div.social2 > div.image {
+    width: 100%;
+    margin-left:30px;
+
+  }
+}
+
+@media  (max-width: 450px)  {
+  div.social2 > div.image {
+    width: 100%;
+    margin-left:8px;
+
+  }
+}
+/* start the img of hospital */
+
+
+

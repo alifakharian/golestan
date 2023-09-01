@@ -1,0 +1,123 @@
+@import url(./setting.css);
+@import url(./media.css);
+
+.navbar {
+  direction: rtl;
+}
+.navbar-nav {
+  /* background-color: lightcoral; */
+  display: flex;
+  column-gap: 20px;
+  font-family: iransans;
+}
+.banner {
+  background-color: #e6e6e6;
+}
+.nav-item {
+  border-right: solid 2px gray;
+}
+div.banner > div.container > div.row > .col-md-6 > h2 {
+  color: red;
+  font-family: iransans;
+}
+div.banner > div.container > div.row > .col-md-6 > h6,
+p {
+  font-family: iransans;
+  font-family: number;
+}
+div.container > div.passage > h3 {
+  font-family: iransans;
+  font-weight: bold;
+  color: red;
+  /* margin: 30px auto; */
+}
+div.container > div.passage > p {
+  color: gray;
+  text-align: justify;
+  line-height: 45px;
+}
+.product {
+  margin-top: 100px;
+}
+
+.product > div.row > div.col-md-3 > p {
+  border-bottom: solid 1px lightgrey;
+  padding-bottom: 15px;
+}
+.rice {
+  position: relative;
+}
+
+.rice > div.col-md-12 {
+  /* width: 18%; */
+  position: absolute;
+  bottom: 0;
+  right: 40%;
+  font-family: iransans;
+  background-color: red;
+}
+
+.food > div.row > div.col-md-12 > h3 {
+  right: 40%;
+  font-family: iransans;
+  color: red;
+  font-weight: bold;
+}
+
+.food > div.row > div.col-md-12 > p {
+  font-family: iransans;
+  line-height: 30px;
+}
+.food > div.row > div.col-md-12 > div > button {
+  font-family: iransans;
+}
+.eating {
+  background-color: #cde4b0;
+  margin-top: 50px;
+}
+.item > p {
+  font-family: iransans;
+  line-height: 35px;
+}
+.item > button {
+  font-family: iransans;
+  height: 40px;
+  line-height: 40px;
+  justify-content: right;
+}
+div.social1,
+div.social2 {
+  height: 400px;
+  background-color: #049196;
+}
+div.social1 > p {
+  padding-top: 360px;
+  border-bottom: 1px solid rgb(0, 89, 212);
+  padding-bottom: 8px;
+}
+div.social2 > div.col-md-12,
+div.social2 > h4 {
+  font-family: sans-serif;
+  align-items: center;
+}
+div.social2 > div.col-md-12 {
+  color: blue;
+}
+div.contact {
+  font-size: 40px;
+}
+
+.contact > div:hover > span {
+  color:rgb(60, 94, 9);
+}
+.maincontact{
+  background-color: lightgray;
+  color: gray;
+}
+.end{
+  width: 100%;
+  margin: 0 auto;
+  height: 20px;
+  background-color: red;
+}
+
